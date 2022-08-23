@@ -48,6 +48,26 @@ def predictImage(request):
     print(respuesta)
     nombre=''
     audio=''
+    if respuesta == 0:
+      nombre= 'cacao'
+      print('cacao')
+      audio="/media/audios/cacao.mp3"
+    elif respuesta == 1:
+      nombre= 'metate'  
+      print('metate')
+      audio="/media/audios/metate.mp3"
+    elif respuesta == 2:
+      nombre='molinillo'
+      print('molinillo')
+      audio="/media/audios/molinillo.mp3"
+    elif respuesta == 3:
+      nombre='mortero'
+      print('mortero')
+      audio="/media/audios/mortero.mp3"
+    elif respuesta == 4:
+      nombre='silla con forma de U'
+      print('sillau')
+      audio="/media/audios/silla.mp3"
     
 
 
