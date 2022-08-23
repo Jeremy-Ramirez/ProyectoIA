@@ -1,0 +1,65 @@
+#contenedor_form{
+    display: flex; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    height:100px;
+    width:900px
+}
+
+#datos_generados_contenedor{
+    background-image: url('/media/fondo/fondo_museo.jpeg'); 
+    background-repeat: no-repeat; 
+    background-size:700px 500px; 
+    height:500px;
+    width:700px;
+    display: flex; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nombre_obra_contenedor{
+    text-transform:uppercase; 
+    color: white;
+    display: flex; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 150px;
+    justify-content: center; 
+    height:100px;
+    width:250px
+}
+#nombre_obra{
+    text-align: center; 
+    display: block; 
+    justify-content: center;
+}
+
+#imagen_obra{
+    display: flex; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    object-fit: contain;
+    justify-content: center;
+}
+
+#audio{
+    display: flex; 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-top: 20px;
+}
+
+#subir_imagen_input{
+    width: 600px;
+}
+
+#contenedor_input{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
