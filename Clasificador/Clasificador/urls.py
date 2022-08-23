@@ -22,6 +22,6 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index, name='Home'),
-
+    path('predictImage', views.predictImage, name='PredictImage'),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
